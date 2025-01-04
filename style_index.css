@@ -26,7 +26,13 @@ body {
     object-fit: cover; /* ปรับขนาดรูปภาพให้พอดี */
 }
 .media {
-    background-image: url(/Pictures/bg\ light-01-01.jpg);
+        background: repeating-linear-gradient(
+        135deg,
+        rgb(228, 255, 255), /* สีของเส้น */
+        rgb(228, 255, 255, 1) 25px, /* ขอบเขตของเส้น */
+        rgb(255, 255, 255, 1) 25px, /* สีของช่องว่าง */
+        rgb(255, 255, 255, 1) 55px /* ขอบเขตของช่องว่าง */
+    );
     padding: 20px 0px 20px 0px;
 }
 .diva {
