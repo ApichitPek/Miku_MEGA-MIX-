@@ -38,9 +38,9 @@ body {
 .diva {
     background-color: rgb(36, 36, 54);
     width: 100%;
-    position: absolute;
-    bottom: 0; /* ชิดล่างสุด */
-    left: 0; /* ชิดซ้าย */
-    text-align: left;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* จัดตำแหน่งเนื้อหากลางแนวตั้ง */
+    text-align: left; /* ทำให้ข้อความชิดซ้าย */
+    padding: 20px 20px 20px 20px; /* เพิ่มช่องว่างด้านซ้ายถ้าต้องการ */
 }
