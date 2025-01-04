@@ -1,0 +1,9 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url(/Pictures/thumb-1920-1214219.jpg);
+    background-size: cover;
+    color: white;
+}
+.navbar {
+    background-color: rgb(31, 204, 204, 0.8); 
+}
